@@ -1,0 +1,47 @@
+type: ControlledVocabulary
+kind: curriculum_elements
+jurisdiction: CCSS
+name: CurriculumElements
+uri: https://rocdata.global/terms/CCSS/CurriculumElements
+country: US
+language: en
+label: CCSSM Curriculum Elements
+description: >
+  Controlled vocabulary for describing the different elements within the
+  Common Core State Standards for Mathematics and the
+  Common Core State Standards for English Language Arts and Literacy in History/Social Studies, Science and Technical Subjects.
+notes: >
+  The Common Core State Standards for Mathematics and the
+  Common Core State Standards for English Language Arts and Literacy in History/Social Studies, Science and Technical Subjects
+  are different in many ways, and the hierarchies from the framework to the component level reflect some of those differences.
+  Clusters are part of the hierarchy in Math but not ELA/Literacy.
+  A single level in the identifiers represents strand and domain for ELA/Literacy,
+  whereas strands do not exist in Math. To require conformance in the hierarchical
+  structures in the two frameworks would ignore the fundamental organizational
+  characteristics of the two standards documents and would compromise the integrity
+  of the architecture of each set of standards.
+  In ELA/Literacy, the Domains, such as Reading Standards for Literature (RL) fully
+  reflect the Strand (Reading), so this level of the hierarchy reflects the Strand and Domain combination.
+  In Math, Set refers to the sets of content and practice standards.
+  In ELA/Literacy it is an optional designation for the anchor standards.
+source: http://www.corestandards.org/developers-and-publishers/
+terms:
+  - term: initiative
+    label: Initiative
+  - term: framework
+    label: Framework
+  - term: set
+    label: Set
+  - term: strand
+    label: Strand
+    alt_label: Strand+Domain
+  - term: grade
+    label: Grade
+  - term: domain
+    label: Domain
+  - term: cluster
+    label: Cluster
+  - term: standard
+    label: Standard
+  - term: component
+    label: Component

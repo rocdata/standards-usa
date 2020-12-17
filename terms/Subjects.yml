@@ -1,0 +1,95 @@
+type: ControlledVocabulary
+kind: subjects
+jurisdiction: USA
+name: Subjects
+uri: https://rocdata.global/terms/USA/Subjects
+country: US
+language: en
+label: U.S. Subject Vocabulary
+description: >
+  A vocabulary of subjects (learning area subjects) intended to provide
+  a uniform categorization of achievement standards across the USA.
+source: http://purl.org/ASN/scheme/ASNTopic/
+terms:
+- term: englishLanguageDevelopment
+  label: English Language Development
+  alt_label: English as a Second Language
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/englishLanguageDevelopment
+- term: foreignLanguage
+  label: Foreign Language
+  alt_label: World Language
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/foreignLanguage
+- term: engineering
+  label: Engineering
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/engineering
+- term: socialStudies
+  label: Social Studies
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/socialStudies
+- term: worldHistory
+  label: World History
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/worldHistory
+- term: historicalUnderstanding
+  label: Historical Understanding
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/historicalUnderstanding
+- term: economics
+  label: Economics
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/economics
+- term: math
+  label: Math
+  alt_label: Mathematics
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/math
+- term: education
+  label: Education
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/education
+- term: technology
+  label: Technology
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/technology
+- term: k-4HistoryAndStateHistory
+  label: K-4 History and State History
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/k-4HistoryAndStateHistory
+- term: geography
+  label: Geography
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/geography
+- term: science
+  label: Science
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/science
+- term: behavioralStudies
+  label: Behavioral Studies
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/behavioralStudies
+- term: libMedia-InfoLit
+  label: Library Media / Information Literacy
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/libMedia-InfoLit
+- term: physicalEducation
+  label: Physical Education
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/physicalEducation
+- term: theArts
+  label: The Arts
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/theArts
+- term: health
+  label: Health
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/health
+- term: english
+  label: English
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/english
+- term: civics
+  label: Civics
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/civics
+- term: careerEducation
+  label: Career Education
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/careerEducation
+- term: usHistory
+  label: U.S. History
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/usHistory
+- term: learning
+  label: Learning
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/learning
+- term: lifeSkills
+  label: Life Skills
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/lifeSkills
+- term: spanish
+  label: Spanish
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/spanish
+- term: financialLiteracy
+  label: Financial Literacy
+  source_uri: http://purl.org/ASN/scheme/ASNTopic/financialLiteracy
+

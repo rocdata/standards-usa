@@ -1,0 +1,115 @@
+type: ControlledVocabulary
+kind: education_levels
+jurisdiction: USA
+name: EducationLevels
+uri: https://rocdata.global/terms/USA/EducationLevels
+country: US
+language: en
+label: U.S. Education Level Vocabulary
+description: >
+  This vocabulary defines education levels for pre-kindergarten through
+  grade 12 for the United States. It also defines general categories for post-secondary
+  education (vocational, professional and life-long learning).
+source: http://purl.org/ASN/scheme/ASNEducationLevel/
+terms:
+- term: PreKto12
+  label: Pre-K to 12
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/PreKto12
+
+- term: ElementarySchool
+  label: Elementary School
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/ElementarySchool
+- term: Pre-K
+  label: Pre-Kindergarten
+  alt_label: Preschool
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/Pre-K
+- term: K
+  label: K
+  alt_label: Kindergarten
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/K
+- term: '1'
+  label: '1'
+  alt_label: First Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/1
+- term: '2'
+  label: '2'
+  alt_label: Second Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/2
+- term: '3'
+  label: '3'
+  alt_label: Third Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/3
+- term: '4'
+  label: '4'
+  alt_label: Fourth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/4
+- term: '5'
+  label: '5'
+  alt_label: Fifth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/5
+
+- term: MiddleSchool
+  label: Middle School
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/MiddleSchool
+- term: '6'
+  label: '6'
+  alt_label: Sixth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/6
+- term: '7'
+  label: '7'
+  alt_label: Seventh Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/7
+- term: '8'
+  label: '8'
+  alt_label: Eighth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/8
+
+- term: HighSchool
+  label: High School
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/HighSchool
+- term: '9'
+  label: '9'
+  alt_label: Ninth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/9
+- term: '10'
+  label: '10'
+  alt_label: Tenth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/10
+- term: '11'
+  label: '11'
+  alt_label: Eleventh Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/11
+- term: '12'
+  label: '12'
+  alt_label: Twelfth Grade
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/12
+
+- term: HigherEducation
+  label: Higher Education
+  alt_label: College
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/HigherEducation
+- term: Undergraduate-LowerDivision
+  label: Undergraduate (Lower Division)
+  alt_label: Two Year College
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/Undergraduate-LowerDivision
+- term: Undergraduate-UpperDivision
+  label: Undergraduate (Upper Division)
+  alt_label: Four Year College
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/Undergraduate-UpperDivision
+- term: Graduate
+  label: Graduate
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/Graduate
+
+- term: VocationalTraining
+  label: Vocational Training
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining
+- term: AdultEducation
+  label: Adult Education
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/AdultEducation
+- term: ProfessionalEducation-Development
+  label: Professional Education & Further Development
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development
+
+- term: LifeLongLearning
+  label: Life-Long Learning
+  source_uri: http://purl.org/ASN/scheme/ASNEducationLevel/LifeLongLearning
