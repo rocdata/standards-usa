@@ -1,3 +1,10 @@
+
+# cached copy of ASN data
+
+# XML source from http://www.corestandards.org/wp-content/uploads/ccssi.zip
+sourcedata/ccssi
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

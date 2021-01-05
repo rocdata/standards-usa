@@ -1,11 +1,11 @@
 type: ControlledVocabulary
 kind: curriculum_elements
-jurisdiction: CCSS
-name: CurriculumElements
-uri: https://rocdata.global/terms/CCSS/CurriculumElements
+jurisdiction: USA
+name: CCSSCurriculumElements
+uri: https://rocdata.global/terms/USA/CCSSCurriculumElements
 country: US
 language: en
-label: CCSSM Curriculum Elements
+label: Common Core State Standards Curriculum Elements
 description: >
   Controlled vocabulary for describing the different elements within the
   Common Core State Standards for Mathematics and the
