@@ -2,7 +2,7 @@ type: ControlledVocabulary
 kind: curriculum_elements
 jurisdiction: USA
 name: CCSSCurriculumElements
-uri: https://rocdata.global/terms/USA/CCSSCurriculumElements
+uri: https://rocdata.global/USA/terms/CCSSCurriculumElements
 country: US
 language: en
 label: Common Core State Standards Curriculum Elements

@@ -2,7 +2,7 @@ type: ControlledVocabulary
 kind: subjects
 jurisdiction: USA
 name: Subjects
-uri: https://rocdata.global/terms/USA/Subjects
+uri: https://rocdata.global/USA/terms/Subjects
 country: US
 language: en
 label: U.S. Subject Vocabulary

@@ -2,7 +2,7 @@ type: ControlledVocabulary
 kind: education_levels
 jurisdiction: USA
 name: EducationLevels
-uri: https://rocdata.global/terms/USA/EducationLevels
+uri: https://rocdata.global/USA/terms/EducationLevels
 country: US
 language: en
 label: U.S. Education Level Vocabulary
