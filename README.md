@@ -1,32 +1,49 @@
 # standards-usa
+Controlled vocabularies and curriculum standards data for USA (only CCSS so far).
 
-Controlled vocabularies and curriculum standards data of the USA ROC Jurisdiction.
+Jurisdiction info
+-----------------
+Curriculum standards in the USA are complicated. Each state has their own standards
+and there are also national standards adopted by many (but not all) states.
+
+The Common Core is a set academic standards in mathematics and English language arts/literacy (ELA),
+outlining what students should know and be able to do at the end of each grade.
+The standards were created to ensure that all students graduate from high school
+with the skills and knowledge necessary to succeed in college, career, and life,
+regardless of where they live. Forty-one states, the District of Columbia,
+four territories, and the Department of Defense Education Activity (DoDEA)
+have voluntarily adopted the Common Core standards.
+
+This code repo contains only the Common Core State Standards published by the 
+Council of Chief State School Officers (CCSSO) and the National Governors Association Center for Best Practices (NGA Center). For other USA standards see https://commonstandardsproject.com/.
 
 
-Overview
+
+Contents
 --------
-
- - `terms/`: controlled vocabularies (grade levels, subjects, and CCSS elements)
-
-
-
-
-Data sources
-------------
- - The original XML data export from CCSS website:
-   http://www.corestandards.org/wp-content/uploads/ccssi.zip
- - CCSSM [json data](https://github.com/learningequality/design2align-backend/blob/master/imports/curriculumdocuments/CCSSM.json)
-   from Hackathon, which in turn was obtained from https://commonstandardsproject.com/
-   via the [standards-importer](https://github.com/commonstandardsproject/standards-importer) scripts.
- - RDF data from ASN including the [CCSS](http://asn.jesandco.org/resources/ASNJurisdiction/CCSS)
-   and [many other states and countries](http://asn.jesandco.org/resources/ASNJurisdiction).
-   See [this file](https://github.com/commonstandardsproject/api/blob/master/importer/matchers/source_to_subject_mapping_grouped.rb) for a comprehensive list of ASN documents.
- - CASE-format standards data from the CASE Network, including
-   [CCSSM](https://casenetwork.imsglobal.org/cftree/doc/1912)
-   [ELA-Literacy](https://casenetwork.imsglobal.org/cftree/doc/1911), and 
-   standards from [many more states](https://casenetwork.imsglobal.org/cfdoc/).
+- [`sourcedocuments/`](./sourcedocuments): source documents (PDFs and scans)
+- [`sourcedata/`](./sourcedata): machine-readable source documents (spreadsheets)
+- [`terms/`](./terms): controlled vocabularies used in the digitized standards:
+  - [`CCSSCurriculumElements.yml`](./terms/CCSSCurriculumElements.yml): terms describing
+    the different "types" of elements within the Common Core standards
+  - [`Subjects.yml`](./terms/Subjects.yml): terms for the academic subjects within the jurisdiction
+  - [`GradeLevels.yml`](./terms/GradeLevels.yml): localized grade levels
+- [`standards/`](./standards): curriculum standards ROCdata
 
 
-Other resources
----------------
- - CCSS en Español: https://commoncore-espanol.sdcoe.net/ (available only as PDF)
+
+Digitization notes
+------------------
+- CCSS data is available as XML sourcedata
+- CCSS data is also available as ASN (RDF) and in CASE formats
+
+
+
+
+License
+-------
+All documents and are under copyright © 2021 Common Core State Standards Initiative.
+The digital representations of terms and standards data in this repository are
+for illustrative purposes part of the [ROC data project](https://rocdata.global/)
+and should not be considered endorsed or approved by the CCSS Initiative in any way.
+
